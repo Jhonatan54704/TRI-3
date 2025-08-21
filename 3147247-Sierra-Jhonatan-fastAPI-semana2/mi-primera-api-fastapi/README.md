@@ -28,6 +28,11 @@ git add .
 git commit -m "Semana 2: API con Pydantic y Type Hints"
 git push 
 
+tu-repositorio/
+├── main.py                    # API con Type Hints + Pydantic
+├── requirements.txt           # fastapi, pydantic, uvicorn
+└── README.md                  # Documentación actualizada
+
 **Frases de lo importate que fue aprender en la semana**
 
 -Aprender a usar Pydantic y type hints fortaleció la robustez y claridad del código, haciendo más confiable la validación de datos.
