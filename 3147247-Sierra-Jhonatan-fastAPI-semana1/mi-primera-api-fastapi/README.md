@@ -1,45 +1,77 @@
-# Mi Primera API FastAPI - Bootcamp
+# Mi Primera API FastAPI
 
-**��� Desarrollador**: Jhonatan
-**��� Email**: sierrajhonatan74@gmail.com
-**� Privacidad**: Email configurado según mejores prácticas de GitHub
-**���� Fecha de creación**: 2025-08-21 13:20:46
-**��� Ruta del proyecto**: /c/Users/ACER GAMING/desktop/tri-3/3147247-Sierra-Jhonatan-fastAPI-semana1/mi-primera-api-fastapi
-**��� Equipo de trabajo**: LAPTOP-62OCKEU8
+## ¿Qué hace?
 
-## ��� Configuración Local
+Una API básica creada en el Bootcamp FastAPI Semana 1.
 
-Este proyecto está configurado para trabajo en equipo compartido:
-
-- **Entorno virtual aislado**: `venv-personal/`
-- **Configuración Git local**: Solo para este proyecto
-- **Dependencias independientes**: No afecta otras instalaciones
-
-## ��� Instalación y Ejecución
+## ¿Cómo ejecutar?
 
 ```bash
-# 1. Activar entorno virtual personal
-source venv-personal/bin/activate
-
-# 2. Instalar dependencias (si es necesario)
 pip install -r requirements.txt
-
-# 3. Ejecutar servidor de desarrollo
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload
 ```
+3. **Subir a GitHub** (paso a paso con instructor):
+   - Crear repositorio: `tu-apellido-primera-api`
+   - `git init`
+   - `git add .`
+   - `git commit -m "Mi primera API FastAPI"`
+   - `git push`
 
-## ��� Notas del Desarrollador
+### ✅ Criterio de Éxito
+- Repositorio en GitHub con 3 archivos mínimos
+- README se ve bien en GitHub
 
-- **Configuración Git**: Local únicamente, no afecta configuración global
-- **Email de GitHub**: Configurado con email privado para proteger información personal
-- **Entorno aislado**: Todas las dependencias en venv-personal/
-- **Puerto por defecto**: 8000 (cambiar si hay conflictos)
-- **Estado del bootcamp**: Semana 1 - Configuración inicial
+---
 
-## ���️ Troubleshooting Personal
+## 🚨 Si tienes problemas
 
-- Si el entorno virtual no se activa: `rm -rf venv-personal && python3 -m venv venv-personal`
-- Si hay conflictos de puerto: cambiar --port en uvicorn
-- Si Git no funciona: verificar `git config user.name` y `git config user.email`
-- Si necesitas cambiar el email: usar el email privado de GitHub desde Settings → Emails
+**NO te compliques**. Este bloque es para consolidar, no para frustrarse.
 
+### Problemas comunes:
+- **Git no funciona**: El instructor te ayudará
+- **Endpoint no responde**: Revisar sintaxis del código
+- **No sale en /docs**: Reiniciar uvicorn
+
+### Solución rápida:
+- Levanta la mano
+- Pide ayuda a un compañero
+- Enfócate en lo que SÍ funciona
+
+---
+
+## 🎯 Resultado Final (Lo que deberías tener)
+
+Al final del Bloque 3:
+
+1. **✅ API con 3-4 endpoints funcionando**
+2. **✅ Código en GitHub**
+3. **✅ README básico**
+4. **✅ Sensación de logro**
+
+### 📁 Estructura Final Mínima
+
+---
+
+## 📊 Auto-evaluación (1 minuto)
+
+**¿Lograste crear tu primera API?** ✅ Sí / ❌ No
+Si
+**¿Está funcionando /docs?** ✅ Sí / ❌ No
+Si
+**¿Está en GitHub?** ✅ Sí / ❌ No
+Si
+**Si respondiste 2/3 "Sí": ¡EXCELENTE!**
+**Si respondiste 1/3 "Sí": ¡MUY BIEN!**
+**Si respondiste 0/3 "Sí": ¡El instructor te ayudará!**
+
+---
+
+## 🚀 Preparación para Semana 2
+
+Con estos ejercicios básicos completados, en la Semana 2 estarás listo para:
+
+- **Python Type Hints** (conceptos que ya usaste sin saberlo)
+- **Pydantic Models** (para datos más estructurados)
+- **Más tipos de endpoints** (POST, PUT, DELETE básicos)
+
+**¡Felicidades por completar tu primera semana! 🎉**
