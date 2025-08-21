@@ -1,8 +1,6 @@
 # Actualizar main.py (agregar solo al final)
 from fastapi import FastAPI
 
-from typing import List, Dict
-
 app = FastAPI(title="Mi Primera API")
 
 @app.get("/")
@@ -55,22 +53,3 @@ def greet_user(name: str) -> dict:
 def calculate(num1: int, num2: int) -> dict:
     result = num1 + num2
     return {"result": result, "operation": "sum"}
-
-# Lista de strings
-@app.get("/fruits")
-def get_fruits() -> List[str]:
-    return ["apple", "banana", "orange"]
-
-# Lista de números
-@app.get("/numbers")
-def get_numbers() -> List[int]:
-    return [1, 2, 3, 4, 5]
-
-# Diccionario con estructura conocida
-@app.get("/user/{user_id}")
-def get_user(user_id: int) -> Dict[str, str]:
-    return {
-        "id": str(user_id),
-        "name": "Demo User",
-        "email": "demo@example.com"
-    }
